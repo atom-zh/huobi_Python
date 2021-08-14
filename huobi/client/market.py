@@ -1,3 +1,8 @@
+import os
+import sys
+import pathlib
+sys.path.append(str(pathlib.Path(os.path.abspath(__file__)).parent.parent.parent))
+
 from huobi.constant import *
 from huobi.model.market import *
 from huobi.utils import *
